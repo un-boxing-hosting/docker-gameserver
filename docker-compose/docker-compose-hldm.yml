@@ -2,8 +2,8 @@
 services:
   # bind mount example
   linuxgsm-hldm-bind:
-    image: gameservermanagers/gameserver:hldm
-    # image: ghcr.io/gameservermanagers/gameserver:hldm
+   # image: gameservermanagers/gameserver:hldm
+     image: ghcr.io/un-boxing-hosting/gameserver:hldm
     container_name: hldmserver
     restart: unless-stopped
     volumes:
@@ -12,8 +12,8 @@ services:
 
   # volume example
   linuxgsm-hldm-volume:
-    image: gameservermanagers/gameserver:hldm
-    # image: ghcr.io/gameservermanagers/gameserver:hldm
+    # image: gameservermanagers/gameserver:hldm
+    image: ghcr.io/un-boxing-hosting/gameserver:hldm
     container_name: hldmserver
     restart: unless-stopped
     volumes:

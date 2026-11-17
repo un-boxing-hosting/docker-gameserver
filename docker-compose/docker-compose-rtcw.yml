@@ -2,8 +2,8 @@
 services:
   # bind mount example
   linuxgsm-rtcw-bind:
-    image: gameservermanagers/gameserver:rtcw
-    # image: ghcr.io/gameservermanagers/gameserver:rtcw
+   # image: gameservermanagers/gameserver:rtcw
+     image: ghcr.io/un-boxing-hosting/gameserver:rtcw
     container_name: rtcwserver
     restart: unless-stopped
     volumes:
@@ -12,8 +12,8 @@ services:
 
   # volume example
   linuxgsm-rtcw-volume:
-    image: gameservermanagers/gameserver:rtcw
-    # image: ghcr.io/gameservermanagers/gameserver:rtcw
+    # image: gameservermanagers/gameserver:rtcw
+    image: ghcr.io/un-boxing-hosting/gameserver:rtcw
     container_name: rtcwserver
     restart: unless-stopped
     volumes:

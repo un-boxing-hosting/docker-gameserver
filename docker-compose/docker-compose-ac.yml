@@ -2,8 +2,8 @@
 services:
   # bind mount example
   linuxgsm-ac-bind:
-    image: gameservermanagers/gameserver:ac
-    # image: ghcr.io/gameservermanagers/gameserver:ac
+   # image: gameservermanagers/gameserver:ac
+     image: ghcr.io/un-boxing-hosting/gameserver:ac
     container_name: acserver
     restart: unless-stopped
     volumes:
@@ -12,8 +12,8 @@ services:
 
   # volume example
   linuxgsm-ac-volume:
-    image: gameservermanagers/gameserver:ac
-    # image: ghcr.io/gameservermanagers/gameserver:ac
+    # image: gameservermanagers/gameserver:ac
+    image: ghcr.io/un-boxing-hosting/gameserver:ac
     container_name: acserver
     restart: unless-stopped
     volumes:

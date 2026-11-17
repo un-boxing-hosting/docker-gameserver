@@ -2,8 +2,8 @@
 services:
   # bind mount example
   linuxgsm-kf2-bind:
-    image: gameservermanagers/gameserver:kf2
-    # image: ghcr.io/gameservermanagers/gameserver:kf2
+   # image: gameservermanagers/gameserver:kf2
+     image: ghcr.io/un-boxing-hosting/gameserver:kf2
     container_name: kf2server
     restart: unless-stopped
     volumes:
@@ -12,8 +12,8 @@ services:
 
   # volume example
   linuxgsm-kf2-volume:
-    image: gameservermanagers/gameserver:kf2
-    # image: ghcr.io/gameservermanagers/gameserver:kf2
+    # image: gameservermanagers/gameserver:kf2
+    image: ghcr.io/un-boxing-hosting/gameserver:kf2
     container_name: kf2server
     restart: unless-stopped
     volumes:

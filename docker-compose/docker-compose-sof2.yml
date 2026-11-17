@@ -2,8 +2,8 @@
 services:
   # bind mount example
   linuxgsm-sof2-bind:
-    image: gameservermanagers/gameserver:sof2
-    # image: ghcr.io/gameservermanagers/gameserver:sof2
+   # image: gameservermanagers/gameserver:sof2
+     image: ghcr.io/un-boxing-hosting/gameserver:sof2
     container_name: sof2server
     restart: unless-stopped
     volumes:
@@ -12,8 +12,8 @@ services:
 
   # volume example
   linuxgsm-sof2-volume:
-    image: gameservermanagers/gameserver:sof2
-    # image: ghcr.io/gameservermanagers/gameserver:sof2
+    # image: gameservermanagers/gameserver:sof2
+    image: ghcr.io/un-boxing-hosting/gameserver:sof2
     container_name: sof2server
     restart: unless-stopped
     volumes:

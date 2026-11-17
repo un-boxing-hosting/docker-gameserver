@@ -2,8 +2,8 @@
 services:
   # bind mount example
   linuxgsm-terraria-bind:
-    image: gameservermanagers/gameserver:terraria
-    # image: ghcr.io/gameservermanagers/gameserver:terraria
+   # image: gameservermanagers/gameserver:terraria
+     image: ghcr.io/un-boxing-hosting/gameserver:terraria
     container_name: terrariaserver
     restart: unless-stopped
     volumes:
@@ -12,8 +12,8 @@ services:
 
   # volume example
   linuxgsm-terraria-volume:
-    image: gameservermanagers/gameserver:terraria
-    # image: ghcr.io/gameservermanagers/gameserver:terraria
+    # image: gameservermanagers/gameserver:terraria
+    image: ghcr.io/un-boxing-hosting/gameserver:terraria
     container_name: terrariaserver
     restart: unless-stopped
     volumes:

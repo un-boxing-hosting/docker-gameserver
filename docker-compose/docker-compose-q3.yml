@@ -2,8 +2,8 @@
 services:
   # bind mount example
   linuxgsm-q3-bind:
-    image: gameservermanagers/gameserver:q3
-    # image: ghcr.io/gameservermanagers/gameserver:q3
+   # image: gameservermanagers/gameserver:q3
+     image: ghcr.io/un-boxing-hosting/gameserver:q3
     container_name: q3server
     restart: unless-stopped
     volumes:
@@ -12,8 +12,8 @@ services:
 
   # volume example
   linuxgsm-q3-volume:
-    image: gameservermanagers/gameserver:q3
-    # image: ghcr.io/gameservermanagers/gameserver:q3
+    # image: gameservermanagers/gameserver:q3
+    image: ghcr.io/un-boxing-hosting/gameserver:q3
     container_name: q3server
     restart: unless-stopped
     volumes:

@@ -2,8 +2,8 @@
 services:
   # bind mount example
   linuxgsm-tfc-bind:
-    image: gameservermanagers/gameserver:tfc
-    # image: ghcr.io/gameservermanagers/gameserver:tfc
+   # image: gameservermanagers/gameserver:tfc
+     image: ghcr.io/un-boxing-hosting/gameserver:tfc
     container_name: tfcserver
     restart: unless-stopped
     volumes:
@@ -12,8 +12,8 @@ services:
 
   # volume example
   linuxgsm-tfc-volume:
-    image: gameservermanagers/gameserver:tfc
-    # image: ghcr.io/gameservermanagers/gameserver:tfc
+    # image: gameservermanagers/gameserver:tfc
+    image: ghcr.io/un-boxing-hosting/gameserver:tfc
     container_name: tfcserver
     restart: unless-stopped
     volumes:

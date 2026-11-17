@@ -2,8 +2,8 @@
 services:
   # bind mount example
   linuxgsm-rsdw-bind:
-    image: gameservermanagers/gameserver:rsdw
-    # image: ghcr.io/gameservermanagers/gameserver:rsdw
+   # image: gameservermanagers/gameserver:rsdw
+     image: ghcr.io/un-boxing-hosting/gameserver:rsdw
     container_name: rsdwserver
     restart: unless-stopped
     volumes:
@@ -12,8 +12,8 @@ services:
 
   # volume example
   linuxgsm-rsdw-volume:
-    image: gameservermanagers/gameserver:rsdw
-    # image: ghcr.io/gameservermanagers/gameserver:rsdw
+    # image: gameservermanagers/gameserver:rsdw
+    image: ghcr.io/un-boxing-hosting/gameserver:rsdw
     container_name: rsdwserver
     restart: unless-stopped
     volumes:

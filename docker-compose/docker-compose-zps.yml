@@ -2,8 +2,8 @@
 services:
   # bind mount example
   linuxgsm-zps-bind:
-    image: gameservermanagers/gameserver:zps
-    # image: ghcr.io/gameservermanagers/gameserver:zps
+   # image: gameservermanagers/gameserver:zps
+     image: ghcr.io/un-boxing-hosting/gameserver:zps
     container_name: zpsserver
     restart: unless-stopped
     volumes:
@@ -12,8 +12,8 @@ services:
 
   # volume example
   linuxgsm-zps-volume:
-    image: gameservermanagers/gameserver:zps
-    # image: ghcr.io/gameservermanagers/gameserver:zps
+    # image: gameservermanagers/gameserver:zps
+    image: ghcr.io/un-boxing-hosting/gameserver:zps
     container_name: zpsserver
     restart: unless-stopped
     volumes:

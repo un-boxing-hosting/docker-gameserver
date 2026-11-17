@@ -2,8 +2,8 @@
 services:
   # bind mount example
   linuxgsm-bf1942-bind:
-    image: gameservermanagers/gameserver:bf1942
-    # image: ghcr.io/gameservermanagers/gameserver:bf1942
+   # image: gameservermanagers/gameserver:bf1942
+     image: ghcr.io/un-boxing-hosting/gameserver:bf1942
     container_name: bf1942server
     restart: unless-stopped
     volumes:
@@ -12,8 +12,8 @@ services:
 
   # volume example
   linuxgsm-bf1942-volume:
-    image: gameservermanagers/gameserver:bf1942
-    # image: ghcr.io/gameservermanagers/gameserver:bf1942
+    # image: gameservermanagers/gameserver:bf1942
+    image: ghcr.io/un-boxing-hosting/gameserver:bf1942
     container_name: bf1942server
     restart: unless-stopped
     volumes:

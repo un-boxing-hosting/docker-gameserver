@@ -2,8 +2,8 @@
 services:
   # bind mount example
   linuxgsm-mc-bind:
-    image: gameservermanagers/gameserver:mc
-    # image: ghcr.io/gameservermanagers/gameserver:mc
+   # image: gameservermanagers/gameserver:mc
+     image: ghcr.io/un-boxing-hosting/gameserver:mc
     container_name: mcserver
     restart: unless-stopped
     volumes:
@@ -12,8 +12,8 @@ services:
 
   # volume example
   linuxgsm-mc-volume:
-    image: gameservermanagers/gameserver:mc
-    # image: ghcr.io/gameservermanagers/gameserver:mc
+    # image: gameservermanagers/gameserver:mc
+    image: ghcr.io/un-boxing-hosting/gameserver:mc
     container_name: mcserver
     restart: unless-stopped
     volumes:

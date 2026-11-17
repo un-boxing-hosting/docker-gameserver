@@ -2,8 +2,8 @@
 services:
   # bind mount example
   linuxgsm-ats-bind:
-    image: gameservermanagers/gameserver:ats
-    # image: ghcr.io/gameservermanagers/gameserver:ats
+   # image: gameservermanagers/gameserver:ats
+     image: ghcr.io/un-boxing-hosting/gameserver:ats
     container_name: atsserver
     restart: unless-stopped
     volumes:
@@ -12,8 +12,8 @@ services:
 
   # volume example
   linuxgsm-ats-volume:
-    image: gameservermanagers/gameserver:ats
-    # image: ghcr.io/gameservermanagers/gameserver:ats
+    # image: gameservermanagers/gameserver:ats
+    image: ghcr.io/un-boxing-hosting/gameserver:ats
     container_name: atsserver
     restart: unless-stopped
     volumes:

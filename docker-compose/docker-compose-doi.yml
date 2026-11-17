@@ -2,8 +2,8 @@
 services:
   # bind mount example
   linuxgsm-doi-bind:
-    image: gameservermanagers/gameserver:doi
-    # image: ghcr.io/gameservermanagers/gameserver:doi
+   # image: gameservermanagers/gameserver:doi
+     image: ghcr.io/un-boxing-hosting/gameserver:doi
     container_name: doiserver
     restart: unless-stopped
     volumes:
@@ -12,8 +12,8 @@ services:
 
   # volume example
   linuxgsm-doi-volume:
-    image: gameservermanagers/gameserver:doi
-    # image: ghcr.io/gameservermanagers/gameserver:doi
+    # image: gameservermanagers/gameserver:doi
+    image: ghcr.io/un-boxing-hosting/gameserver:doi
     container_name: doiserver
     restart: unless-stopped
     volumes:

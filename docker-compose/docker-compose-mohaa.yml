@@ -2,8 +2,8 @@
 services:
   # bind mount example
   linuxgsm-mohaa-bind:
-    image: gameservermanagers/gameserver:mohaa
-    # image: ghcr.io/gameservermanagers/gameserver:mohaa
+   # image: gameservermanagers/gameserver:mohaa
+     image: ghcr.io/un-boxing-hosting/gameserver:mohaa
     container_name: mohaaserver
     restart: unless-stopped
     volumes:
@@ -12,8 +12,8 @@ services:
 
   # volume example
   linuxgsm-mohaa-volume:
-    image: gameservermanagers/gameserver:mohaa
-    # image: ghcr.io/gameservermanagers/gameserver:mohaa
+    # image: gameservermanagers/gameserver:mohaa
+    image: ghcr.io/un-boxing-hosting/gameserver:mohaa
     container_name: mohaaserver
     restart: unless-stopped
     volumes:

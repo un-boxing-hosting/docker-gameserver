@@ -2,8 +2,8 @@
 services:
   # bind mount example
   linuxgsm-dayz-bind:
-    image: gameservermanagers/gameserver:dayz
-    # image: ghcr.io/gameservermanagers/gameserver:dayz
+   # image: gameservermanagers/gameserver:dayz
+     image: ghcr.io/un-boxing-hosting/gameserver:dayz
     container_name: dayzserver
     restart: unless-stopped
     volumes:
@@ -12,8 +12,8 @@ services:
 
   # volume example
   linuxgsm-dayz-volume:
-    image: gameservermanagers/gameserver:dayz
-    # image: ghcr.io/gameservermanagers/gameserver:dayz
+    # image: gameservermanagers/gameserver:dayz
+    image: ghcr.io/un-boxing-hosting/gameserver:dayz
     container_name: dayzserver
     restart: unless-stopped
     volumes:

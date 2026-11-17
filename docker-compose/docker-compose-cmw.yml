@@ -2,8 +2,8 @@
 services:
   # bind mount example
   linuxgsm-cmw-bind:
-    image: gameservermanagers/gameserver:cmw
-    # image: ghcr.io/gameservermanagers/gameserver:cmw
+   # image: gameservermanagers/gameserver:cmw
+     image: ghcr.io/un-boxing-hosting/gameserver:cmw
     container_name: cmwserver
     restart: unless-stopped
     volumes:
@@ -12,8 +12,8 @@ services:
 
   # volume example
   linuxgsm-cmw-volume:
-    image: gameservermanagers/gameserver:cmw
-    # image: ghcr.io/gameservermanagers/gameserver:cmw
+    # image: gameservermanagers/gameserver:cmw
+    image: ghcr.io/un-boxing-hosting/gameserver:cmw
     container_name: cmwserver
     restart: unless-stopped
     volumes:

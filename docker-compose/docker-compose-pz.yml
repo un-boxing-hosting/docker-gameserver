@@ -2,8 +2,8 @@
 services:
   # bind mount example
   linuxgsm-pz-bind:
-    image: gameservermanagers/gameserver:pz
-    # image: ghcr.io/gameservermanagers/gameserver:pz
+   # image: gameservermanagers/gameserver:pz
+     image: ghcr.io/un-boxing-hosting/gameserver:pz
     container_name: pzserver
     restart: unless-stopped
     volumes:
@@ -12,8 +12,8 @@ services:
 
   # volume example
   linuxgsm-pz-volume:
-    image: gameservermanagers/gameserver:pz
-    # image: ghcr.io/gameservermanagers/gameserver:pz
+    # image: gameservermanagers/gameserver:pz
+    image: ghcr.io/un-boxing-hosting/gameserver:pz
     container_name: pzserver
     restart: unless-stopped
     volumes:

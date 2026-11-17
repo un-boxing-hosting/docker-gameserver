@@ -2,8 +2,8 @@
 services:
   # bind mount example
   linuxgsm-ti-bind:
-    image: gameservermanagers/gameserver:ti
-    # image: ghcr.io/gameservermanagers/gameserver:ti
+   # image: gameservermanagers/gameserver:ti
+     image: ghcr.io/un-boxing-hosting/gameserver:ti
     container_name: tiserver
     restart: unless-stopped
     volumes:
@@ -12,8 +12,8 @@ services:
 
   # volume example
   linuxgsm-ti-volume:
-    image: gameservermanagers/gameserver:ti
-    # image: ghcr.io/gameservermanagers/gameserver:ti
+    # image: gameservermanagers/gameserver:ti
+    image: ghcr.io/un-boxing-hosting/gameserver:ti
     container_name: tiserver
     restart: unless-stopped
     volumes:

@@ -2,8 +2,8 @@
 services:
   # bind mount example
   linuxgsm-ark-bind:
-    image: gameservermanagers/gameserver:ark
-    # image: ghcr.io/gameservermanagers/gameserver:ark
+   # image: gameservermanagers/gameserver:ark
+     image: ghcr.io/un-boxing-hosting/gameserver:ark
     container_name: arkserver
     restart: unless-stopped
     volumes:
@@ -12,8 +12,8 @@ services:
 
   # volume example
   linuxgsm-ark-volume:
-    image: gameservermanagers/gameserver:ark
-    # image: ghcr.io/gameservermanagers/gameserver:ark
+    # image: gameservermanagers/gameserver:ark
+    image: ghcr.io/un-boxing-hosting/gameserver:ark
     container_name: arkserver
     restart: unless-stopped
     volumes:

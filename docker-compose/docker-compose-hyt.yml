@@ -2,8 +2,8 @@
 services:
   # bind mount example
   linuxgsm-hyt-bind:
-    image: gameservermanagers/gameserver:hyt
-    # image: ghcr.io/gameservermanagers/gameserver:hyt
+   # image: gameservermanagers/gameserver:hyt
+     image: ghcr.io/un-boxing-hosting/gameserver:hyt
     container_name: hytserver
     restart: unless-stopped
     volumes:
@@ -12,8 +12,8 @@ services:
 
   # volume example
   linuxgsm-hyt-volume:
-    image: gameservermanagers/gameserver:hyt
-    # image: ghcr.io/gameservermanagers/gameserver:hyt
+    # image: gameservermanagers/gameserver:hyt
+    image: ghcr.io/un-boxing-hosting/gameserver:hyt
     container_name: hytserver
     restart: unless-stopped
     volumes:

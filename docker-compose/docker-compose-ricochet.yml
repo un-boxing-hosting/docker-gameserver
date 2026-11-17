@@ -2,8 +2,8 @@
 services:
   # bind mount example
   linuxgsm-ricochet-bind:
-    image: gameservermanagers/gameserver:ricochet
-    # image: ghcr.io/gameservermanagers/gameserver:ricochet
+   # image: gameservermanagers/gameserver:ricochet
+     image: ghcr.io/un-boxing-hosting/gameserver:ricochet
     container_name: ricochetserver
     restart: unless-stopped
     volumes:
@@ -12,8 +12,8 @@ services:
 
   # volume example
   linuxgsm-ricochet-volume:
-    image: gameservermanagers/gameserver:ricochet
-    # image: ghcr.io/gameservermanagers/gameserver:ricochet
+    # image: gameservermanagers/gameserver:ricochet
+    image: ghcr.io/un-boxing-hosting/gameserver:ricochet
     container_name: ricochetserver
     restart: unless-stopped
     volumes:

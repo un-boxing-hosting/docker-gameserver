@@ -16,7 +16,7 @@ jobs:
       - name: Delete old untagged package versions
         uses: snok/container-retention-policy@v3.1.0
         with:
-          account: GameServerManagers
+          account: un-boxing-hosting
           token: ${{ secrets.GITHUB_TOKEN }}
           image-names: gameserver
           tag-selection: untagged

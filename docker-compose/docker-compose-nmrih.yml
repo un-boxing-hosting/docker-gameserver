@@ -2,8 +2,8 @@
 services:
   # bind mount example
   linuxgsm-nmrih-bind:
-    image: gameservermanagers/gameserver:nmrih
-    # image: ghcr.io/gameservermanagers/gameserver:nmrih
+   # image: gameservermanagers/gameserver:nmrih
+     image: ghcr.io/un-boxing-hosting/gameserver:nmrih
     container_name: nmrihserver
     restart: unless-stopped
     volumes:
@@ -12,8 +12,8 @@ services:
 
   # volume example
   linuxgsm-nmrih-volume:
-    image: gameservermanagers/gameserver:nmrih
-    # image: ghcr.io/gameservermanagers/gameserver:nmrih
+    # image: gameservermanagers/gameserver:nmrih
+    image: ghcr.io/un-boxing-hosting/gameserver:nmrih
     container_name: nmrihserver
     restart: unless-stopped
     volumes:

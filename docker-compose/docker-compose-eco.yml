@@ -2,8 +2,8 @@
 services:
   # bind mount example
   linuxgsm-eco-bind:
-    image: gameservermanagers/gameserver:eco
-    # image: ghcr.io/gameservermanagers/gameserver:eco
+   # image: gameservermanagers/gameserver:eco
+     image: ghcr.io/un-boxing-hosting/gameserver:eco
     container_name: ecoserver
     restart: unless-stopped
     volumes:
@@ -12,8 +12,8 @@ services:
 
   # volume example
   linuxgsm-eco-volume:
-    image: gameservermanagers/gameserver:eco
-    # image: ghcr.io/gameservermanagers/gameserver:eco
+    # image: gameservermanagers/gameserver:eco
+    image: ghcr.io/un-boxing-hosting/gameserver:eco
     container_name: ecoserver
     restart: unless-stopped
     volumes:

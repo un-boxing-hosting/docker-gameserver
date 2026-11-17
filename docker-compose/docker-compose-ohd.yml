@@ -2,8 +2,8 @@
 services:
   # bind mount example
   linuxgsm-ohd-bind:
-    image: gameservermanagers/gameserver:ohd
-    # image: ghcr.io/gameservermanagers/gameserver:ohd
+   # image: gameservermanagers/gameserver:ohd
+     image: ghcr.io/un-boxing-hosting/gameserver:ohd
     container_name: ohdserver
     restart: unless-stopped
     volumes:
@@ -12,8 +12,8 @@ services:
 
   # volume example
   linuxgsm-ohd-volume:
-    image: gameservermanagers/gameserver:ohd
-    # image: ghcr.io/gameservermanagers/gameserver:ohd
+    # image: gameservermanagers/gameserver:ohd
+    image: ghcr.io/un-boxing-hosting/gameserver:ohd
     container_name: ohdserver
     restart: unless-stopped
     volumes:

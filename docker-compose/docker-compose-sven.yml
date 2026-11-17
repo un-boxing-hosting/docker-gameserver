@@ -2,8 +2,8 @@
 services:
   # bind mount example
   linuxgsm-sven-bind:
-    image: gameservermanagers/gameserver:sven
-    # image: ghcr.io/gameservermanagers/gameserver:sven
+   # image: gameservermanagers/gameserver:sven
+     image: ghcr.io/un-boxing-hosting/gameserver:sven
     container_name: svenserver
     restart: unless-stopped
     volumes:
@@ -12,8 +12,8 @@ services:
 
   # volume example
   linuxgsm-sven-volume:
-    image: gameservermanagers/gameserver:sven
-    # image: ghcr.io/gameservermanagers/gameserver:sven
+    # image: gameservermanagers/gameserver:sven
+    image: ghcr.io/un-boxing-hosting/gameserver:sven
     container_name: svenserver
     restart: unless-stopped
     volumes:

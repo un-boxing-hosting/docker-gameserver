@@ -2,8 +2,8 @@
 services:
   # bind mount example
   linuxgsm-pvkii-bind:
-    image: gameservermanagers/gameserver:pvkii
-    # image: ghcr.io/gameservermanagers/gameserver:pvkii
+   # image: gameservermanagers/gameserver:pvkii
+     image: ghcr.io/un-boxing-hosting/gameserver:pvkii
     container_name: pvkiiserver
     restart: unless-stopped
     volumes:
@@ -12,8 +12,8 @@ services:
 
   # volume example
   linuxgsm-pvkii-volume:
-    image: gameservermanagers/gameserver:pvkii
-    # image: ghcr.io/gameservermanagers/gameserver:pvkii
+    # image: gameservermanagers/gameserver:pvkii
+    image: ghcr.io/un-boxing-hosting/gameserver:pvkii
     container_name: pvkiiserver
     restart: unless-stopped
     volumes:

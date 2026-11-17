@@ -2,8 +2,8 @@
 services:
   # bind mount example
   linuxgsm-nd-bind:
-    image: gameservermanagers/gameserver:nd
-    # image: ghcr.io/gameservermanagers/gameserver:nd
+   # image: gameservermanagers/gameserver:nd
+     image: ghcr.io/un-boxing-hosting/gameserver:nd
     container_name: ndserver
     restart: unless-stopped
     volumes:
@@ -12,8 +12,8 @@ services:
 
   # volume example
   linuxgsm-nd-volume:
-    image: gameservermanagers/gameserver:nd
-    # image: ghcr.io/gameservermanagers/gameserver:nd
+    # image: gameservermanagers/gameserver:nd
+    image: ghcr.io/un-boxing-hosting/gameserver:nd
     container_name: ndserver
     restart: unless-stopped
     volumes:

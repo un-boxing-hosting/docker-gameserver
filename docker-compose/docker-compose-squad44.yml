@@ -2,8 +2,8 @@
 services:
   # bind mount example
   linuxgsm-squad44-bind:
-    image: gameservermanagers/gameserver:squad44
-    # image: ghcr.io/gameservermanagers/gameserver:squad44
+   # image: gameservermanagers/gameserver:squad44
+     image: ghcr.io/un-boxing-hosting/gameserver:squad44
     container_name: squad44server
     restart: unless-stopped
     volumes:
@@ -12,8 +12,8 @@ services:
 
   # volume example
   linuxgsm-squad44-volume:
-    image: gameservermanagers/gameserver:squad44
-    # image: ghcr.io/gameservermanagers/gameserver:squad44
+    # image: gameservermanagers/gameserver:squad44
+    image: ghcr.io/un-boxing-hosting/gameserver:squad44
     container_name: squad44server
     restart: unless-stopped
     volumes:

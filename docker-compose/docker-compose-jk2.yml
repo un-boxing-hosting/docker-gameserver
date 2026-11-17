@@ -2,8 +2,8 @@
 services:
   # bind mount example
   linuxgsm-jk2-bind:
-    image: gameservermanagers/gameserver:jk2
-    # image: ghcr.io/gameservermanagers/gameserver:jk2
+   # image: gameservermanagers/gameserver:jk2
+     image: ghcr.io/un-boxing-hosting/gameserver:jk2
     container_name: jk2server
     restart: unless-stopped
     volumes:
@@ -12,8 +12,8 @@ services:
 
   # volume example
   linuxgsm-jk2-volume:
-    image: gameservermanagers/gameserver:jk2
-    # image: ghcr.io/gameservermanagers/gameserver:jk2
+    # image: gameservermanagers/gameserver:jk2
+    image: ghcr.io/un-boxing-hosting/gameserver:jk2
     container_name: jk2server
     restart: unless-stopped
     volumes:

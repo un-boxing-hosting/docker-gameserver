@@ -2,8 +2,8 @@
 services:
   # bind mount example
   linuxgsm-cscz-bind:
-    image: gameservermanagers/gameserver:cscz
-    # image: ghcr.io/gameservermanagers/gameserver:cscz
+   # image: gameservermanagers/gameserver:cscz
+     image: ghcr.io/un-boxing-hosting/gameserver:cscz
     container_name: csczserver
     restart: unless-stopped
     volumes:
@@ -12,8 +12,8 @@ services:
 
   # volume example
   linuxgsm-cscz-volume:
-    image: gameservermanagers/gameserver:cscz
-    # image: ghcr.io/gameservermanagers/gameserver:cscz
+    # image: gameservermanagers/gameserver:cscz
+    image: ghcr.io/un-boxing-hosting/gameserver:cscz
     container_name: csczserver
     restart: unless-stopped
     volumes:

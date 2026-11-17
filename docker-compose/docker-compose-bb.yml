@@ -2,8 +2,8 @@
 services:
   # bind mount example
   linuxgsm-bb-bind:
-    image: gameservermanagers/gameserver:bb
-    # image: ghcr.io/gameservermanagers/gameserver:bb
+   # image: gameservermanagers/gameserver:bb
+     image: ghcr.io/un-boxing-hosting/gameserver:bb
     container_name: bbserver
     restart: unless-stopped
     volumes:
@@ -12,8 +12,8 @@ services:
 
   # volume example
   linuxgsm-bb-volume:
-    image: gameservermanagers/gameserver:bb
-    # image: ghcr.io/gameservermanagers/gameserver:bb
+    # image: gameservermanagers/gameserver:bb
+    image: ghcr.io/un-boxing-hosting/gameserver:bb
     container_name: bbserver
     restart: unless-stopped
     volumes:
