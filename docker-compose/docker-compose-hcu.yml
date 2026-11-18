@@ -2,7 +2,7 @@
 services:
   # bind mount example
   linuxgsm-hcu-bind:
-    # image: gameservermanagers/gameserver:hcu
+   # image: gameservermanagers/gameserver:hcu
     image: ghcr.io/un-boxing-hosting/gameserver:hcu
     container_name: hcuserver
     restart: unless-stopped

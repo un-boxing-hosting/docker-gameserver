@@ -2,7 +2,7 @@
 services:
   # bind mount example
   linuxgsm-ohd-bind:
-    # image: gameservermanagers/gameserver:ohd
+   # image: gameservermanagers/gameserver:ohd
     image: ghcr.io/un-boxing-hosting/gameserver:ohd
     container_name: ohdserver
     restart: unless-stopped

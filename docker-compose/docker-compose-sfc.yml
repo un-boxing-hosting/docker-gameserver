@@ -2,7 +2,7 @@
 services:
   # bind mount example
   linuxgsm-sfc-bind:
-    # image: gameservermanagers/gameserver:sfc
+   # image: gameservermanagers/gameserver:sfc
     image: ghcr.io/un-boxing-hosting/gameserver:sfc
     container_name: sfcserver
     restart: unless-stopped

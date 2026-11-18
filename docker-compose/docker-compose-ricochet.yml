@@ -2,7 +2,7 @@
 services:
   # bind mount example
   linuxgsm-ricochet-bind:
-    # image: gameservermanagers/gameserver:ricochet
+   # image: gameservermanagers/gameserver:ricochet
     image: ghcr.io/un-boxing-hosting/gameserver:ricochet
     container_name: ricochetserver
     restart: unless-stopped

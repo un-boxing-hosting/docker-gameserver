@@ -2,7 +2,7 @@
 services:
   # bind mount example
   linuxgsm-csgo-bind:
-    # image: gameservermanagers/gameserver:csgo
+   # image: gameservermanagers/gameserver:csgo
     image: ghcr.io/un-boxing-hosting/gameserver:csgo
     container_name: csgoserver
     restart: unless-stopped

@@ -2,7 +2,7 @@
 services:
   # bind mount example
   linuxgsm-bfv-bind:
-    # image: gameservermanagers/gameserver:bfv
+   # image: gameservermanagers/gameserver:bfv
     image: ghcr.io/un-boxing-hosting/gameserver:bfv
     container_name: bfvserver
     restart: unless-stopped

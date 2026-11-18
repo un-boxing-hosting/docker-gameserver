@@ -2,7 +2,7 @@
 services:
   # bind mount example
   linuxgsm-nmrih-bind:
-    # image: gameservermanagers/gameserver:nmrih
+   # image: gameservermanagers/gameserver:nmrih
     image: ghcr.io/un-boxing-hosting/gameserver:nmrih
     container_name: nmrihserver
     restart: unless-stopped

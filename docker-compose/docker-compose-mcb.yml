@@ -2,7 +2,7 @@
 services:
   # bind mount example
   linuxgsm-mcb-bind:
-    # image: gameservermanagers/gameserver:mcb
+   # image: gameservermanagers/gameserver:mcb
     image: ghcr.io/un-boxing-hosting/gameserver:mcb
     container_name: mcbserver
     restart: unless-stopped

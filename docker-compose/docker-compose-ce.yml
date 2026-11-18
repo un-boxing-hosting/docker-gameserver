@@ -2,7 +2,7 @@
 services:
   # bind mount example
   linuxgsm-ce-bind:
-    # image: gameservermanagers/gameserver:ce
+   # image: gameservermanagers/gameserver:ce
     image: ghcr.io/un-boxing-hosting/gameserver:ce
     container_name: ceserver
     restart: unless-stopped

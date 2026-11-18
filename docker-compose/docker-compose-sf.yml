@@ -2,7 +2,7 @@
 services:
   # bind mount example
   linuxgsm-sf-bind:
-    # image: gameservermanagers/gameserver:sf
+   # image: gameservermanagers/gameserver:sf
     image: ghcr.io/un-boxing-hosting/gameserver:sf
     container_name: sfserver
     restart: unless-stopped

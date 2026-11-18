@@ -2,7 +2,7 @@
 services:
   # bind mount example
   linuxgsm-l4d-bind:
-    # image: gameservermanagers/gameserver:l4d
+   # image: gameservermanagers/gameserver:l4d
     image: ghcr.io/un-boxing-hosting/gameserver:l4d
     container_name: l4dserver
     restart: unless-stopped

@@ -2,7 +2,7 @@
 services:
   # bind mount example
   linuxgsm-dod-bind:
-    # image: gameservermanagers/gameserver:dod
+   # image: gameservermanagers/gameserver:dod
     image: ghcr.io/un-boxing-hosting/gameserver:dod
     container_name: dodserver
     restart: unless-stopped

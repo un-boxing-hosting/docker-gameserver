@@ -2,7 +2,7 @@
 services:
   # bind mount example
   linuxgsm-coduo-bind:
-    # image: gameservermanagers/gameserver:coduo
+   # image: gameservermanagers/gameserver:coduo
     image: ghcr.io/un-boxing-hosting/gameserver:coduo
     container_name: coduoserver
     restart: unless-stopped

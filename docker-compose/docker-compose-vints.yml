@@ -2,7 +2,7 @@
 services:
   # bind mount example
   linuxgsm-vints-bind:
-    # image: gameservermanagers/gameserver:vints
+   # image: gameservermanagers/gameserver:vints
     image: ghcr.io/un-boxing-hosting/gameserver:vints
     container_name: vintsserver
     restart: unless-stopped

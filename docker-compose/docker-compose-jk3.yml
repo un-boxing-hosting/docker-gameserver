@@ -2,7 +2,7 @@
 services:
   # bind mount example
   linuxgsm-jk3-bind:
-    # image: gameservermanagers/gameserver:jk3
+   # image: gameservermanagers/gameserver:jk3
     image: ghcr.io/un-boxing-hosting/gameserver:jk3
     container_name: jk3server
     restart: unless-stopped

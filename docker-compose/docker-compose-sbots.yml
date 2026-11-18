@@ -2,7 +2,7 @@
 services:
   # bind mount example
   linuxgsm-sbots-bind:
-    # image: gameservermanagers/gameserver:sbots
+   # image: gameservermanagers/gameserver:sbots
     image: ghcr.io/un-boxing-hosting/gameserver:sbots
     container_name: sbotsserver
     restart: unless-stopped

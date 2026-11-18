@@ -2,7 +2,7 @@
 services:
   # bind mount example
   linuxgsm-qw-bind:
-    # image: gameservermanagers/gameserver:qw
+   # image: gameservermanagers/gameserver:qw
     image: ghcr.io/un-boxing-hosting/gameserver:qw
     container_name: qwserver
     restart: unless-stopped

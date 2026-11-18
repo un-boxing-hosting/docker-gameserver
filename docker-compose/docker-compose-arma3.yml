@@ -2,7 +2,7 @@
 services:
   # bind mount example
   linuxgsm-arma3-bind:
-    # image: gameservermanagers/gameserver:arma3
+   # image: gameservermanagers/gameserver:arma3
     image: ghcr.io/un-boxing-hosting/gameserver:arma3
     container_name: arma3server
     restart: unless-stopped

@@ -2,7 +2,7 @@
 services:
   # bind mount example
   linuxgsm-shortname-bind:
-    # image: gameservermanagers/gameserver:shortname
+   # image: gameservermanagers/gameserver:shortname
     image: ghcr.io/un-boxing-hosting/gameserver:shortname
     container_name: shortnameserver
     restart: unless-stopped

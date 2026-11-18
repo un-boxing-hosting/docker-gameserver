@@ -2,7 +2,7 @@
 services:
   # bind mount example
   linuxgsm-mcv-bind:
-    # image: gameservermanagers/gameserver:mcv
+   # image: gameservermanagers/gameserver:mcv
     image: ghcr.io/un-boxing-hosting/gameserver:mcv
     container_name: mcvserver
     restart: unless-stopped

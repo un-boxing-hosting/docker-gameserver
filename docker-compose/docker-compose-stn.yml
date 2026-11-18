@@ -2,7 +2,7 @@
 services:
   # bind mount example
   linuxgsm-stn-bind:
-    # image: gameservermanagers/gameserver:stn
+   # image: gameservermanagers/gameserver:stn
     image: ghcr.io/un-boxing-hosting/gameserver:stn
     container_name: stnserver
     restart: unless-stopped

@@ -2,7 +2,7 @@
 services:
   # bind mount example
   linuxgsm-bo-bind:
-    # image: gameservermanagers/gameserver:bo
+   # image: gameservermanagers/gameserver:bo
     image: ghcr.io/un-boxing-hosting/gameserver:bo
     container_name: boserver
     restart: unless-stopped

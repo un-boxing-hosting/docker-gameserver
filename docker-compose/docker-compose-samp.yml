@@ -2,7 +2,7 @@
 services:
   # bind mount example
   linuxgsm-samp-bind:
-    # image: gameservermanagers/gameserver:samp
+   # image: gameservermanagers/gameserver:samp
     image: ghcr.io/un-boxing-hosting/gameserver:samp
     container_name: sampserver
     restart: unless-stopped

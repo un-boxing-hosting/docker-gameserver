@@ -2,7 +2,7 @@
 services:
   # bind mount example
   linuxgsm-codwaw-bind:
-    # image: gameservermanagers/gameserver:codwaw
+   # image: gameservermanagers/gameserver:codwaw
     image: ghcr.io/un-boxing-hosting/gameserver:codwaw
     container_name: codwawserver
     restart: unless-stopped

@@ -2,7 +2,7 @@
 services:
   # bind mount example
   linuxgsm-jc2-bind:
-    # image: gameservermanagers/gameserver:jc2
+   # image: gameservermanagers/gameserver:jc2
     image: ghcr.io/un-boxing-hosting/gameserver:jc2
     container_name: jc2server
     restart: unless-stopped
