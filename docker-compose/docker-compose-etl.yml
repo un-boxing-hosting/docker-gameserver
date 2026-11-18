@@ -2,7 +2,7 @@
 services:
   # bind mount example
   linuxgsm-etl-bind:
-   # image: gameservermanagers/gameserver:etl
+    # image: gameservermanagers/gameserver:etl
     image: ghcr.io/un-boxing-hosting/gameserver:etl
     container_name: etlserver
     restart: unless-stopped

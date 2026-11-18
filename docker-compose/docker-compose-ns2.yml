@@ -2,7 +2,7 @@
 services:
   # bind mount example
   linuxgsm-ns2-bind:
-   # image: gameservermanagers/gameserver:ns2
+    # image: gameservermanagers/gameserver:ns2
     image: ghcr.io/un-boxing-hosting/gameserver:ns2
     container_name: ns2server
     restart: unless-stopped

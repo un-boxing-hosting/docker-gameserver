@@ -2,7 +2,7 @@
 services:
   # bind mount example
   linuxgsm-hlwon-bind:
-   # image: gameservermanagers/gameserver:hlwon
+    # image: gameservermanagers/gameserver:hlwon
     image: ghcr.io/un-boxing-hosting/gameserver:hlwon
     container_name: hlwonserver
     restart: unless-stopped

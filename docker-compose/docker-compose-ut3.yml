@@ -2,7 +2,7 @@
 services:
   # bind mount example
   linuxgsm-ut3-bind:
-   # image: gameservermanagers/gameserver:ut3
+    # image: gameservermanagers/gameserver:ut3
     image: ghcr.io/un-boxing-hosting/gameserver:ut3
     container_name: ut3server
     restart: unless-stopped

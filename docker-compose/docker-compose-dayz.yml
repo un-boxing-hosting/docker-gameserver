@@ -2,7 +2,7 @@
 services:
   # bind mount example
   linuxgsm-dayz-bind:
-   # image: gameservermanagers/gameserver:dayz
+    # image: gameservermanagers/gameserver:dayz
     image: ghcr.io/un-boxing-hosting/gameserver:dayz
     container_name: dayzserver
     restart: unless-stopped

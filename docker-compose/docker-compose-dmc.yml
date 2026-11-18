@@ -2,7 +2,7 @@
 services:
   # bind mount example
   linuxgsm-dmc-bind:
-   # image: gameservermanagers/gameserver:dmc
+    # image: gameservermanagers/gameserver:dmc
     image: ghcr.io/un-boxing-hosting/gameserver:dmc
     container_name: dmcserver
     restart: unless-stopped

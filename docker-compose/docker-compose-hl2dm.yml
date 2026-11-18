@@ -2,7 +2,7 @@
 services:
   # bind mount example
   linuxgsm-hl2dm-bind:
-   # image: gameservermanagers/gameserver:hl2dm
+    # image: gameservermanagers/gameserver:hl2dm
     image: ghcr.io/un-boxing-hosting/gameserver:hl2dm
     container_name: hl2dmserver
     restart: unless-stopped

@@ -2,7 +2,7 @@
 services:
   # bind mount example
   linuxgsm-cod-bind:
-   # image: gameservermanagers/gameserver:cod
+    # image: gameservermanagers/gameserver:cod
     image: ghcr.io/un-boxing-hosting/gameserver:cod
     container_name: codserver
     restart: unless-stopped

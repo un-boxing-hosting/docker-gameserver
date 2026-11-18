@@ -2,7 +2,7 @@
 services:
   # bind mount example
   linuxgsm-dodr-bind:
-   # image: gameservermanagers/gameserver:dodr
+    # image: gameservermanagers/gameserver:dodr
     image: ghcr.io/un-boxing-hosting/gameserver:dodr
     container_name: dodrserver
     restart: unless-stopped

@@ -2,7 +2,7 @@
 services:
   # bind mount example
   linuxgsm-zps-bind:
-   # image: gameservermanagers/gameserver:zps
+    # image: gameservermanagers/gameserver:zps
     image: ghcr.io/un-boxing-hosting/gameserver:zps
     container_name: zpsserver
     restart: unless-stopped

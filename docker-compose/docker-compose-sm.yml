@@ -2,7 +2,7 @@
 services:
   # bind mount example
   linuxgsm-sm-bind:
-   # image: gameservermanagers/gameserver:sm
+    # image: gameservermanagers/gameserver:sm
     image: ghcr.io/un-boxing-hosting/gameserver:sm
     container_name: smserver
     restart: unless-stopped

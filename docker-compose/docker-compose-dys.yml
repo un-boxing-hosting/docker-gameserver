@@ -2,7 +2,7 @@
 services:
   # bind mount example
   linuxgsm-dys-bind:
-   # image: gameservermanagers/gameserver:dys
+    # image: gameservermanagers/gameserver:dys
     image: ghcr.io/un-boxing-hosting/gameserver:dys
     container_name: dysserver
     restart: unless-stopped
