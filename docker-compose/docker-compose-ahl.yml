@@ -2,7 +2,7 @@
 services:
   # bind mount example
   linuxgsm-ahl-bind:
-   # image: gameservermanagers/gameserver:ahl
+    # image: gameservermanagers/gameserver:ahl
     image: ghcr.io/un-boxing-hosting/gameserver:ahl
     container_name: ahlserver
     restart: unless-stopped

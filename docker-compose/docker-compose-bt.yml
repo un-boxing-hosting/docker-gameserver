@@ -2,7 +2,7 @@
 services:
   # bind mount example
   linuxgsm-bt-bind:
-   # image: gameservermanagers/gameserver:bt
+    # image: gameservermanagers/gameserver:bt
     image: ghcr.io/un-boxing-hosting/gameserver:bt
     container_name: btserver
     restart: unless-stopped

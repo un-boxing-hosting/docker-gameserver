@@ -2,7 +2,7 @@
 services:
   # bind mount example
   linuxgsm-inss-bind:
-   # image: gameservermanagers/gameserver:inss
+    # image: gameservermanagers/gameserver:inss
     image: ghcr.io/un-boxing-hosting/gameserver:inss
     container_name: inssserver
     restart: unless-stopped

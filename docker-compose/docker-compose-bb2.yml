@@ -2,7 +2,7 @@
 services:
   # bind mount example
   linuxgsm-bb2-bind:
-   # image: gameservermanagers/gameserver:bb2
+    # image: gameservermanagers/gameserver:bb2
     image: ghcr.io/un-boxing-hosting/gameserver:bb2
     container_name: bb2server
     restart: unless-stopped

@@ -2,7 +2,7 @@
 services:
   # bind mount example
   linuxgsm-luanti-bind:
-   # image: gameservermanagers/gameserver:luanti
+    # image: gameservermanagers/gameserver:luanti
     image: ghcr.io/un-boxing-hosting/gameserver:luanti
     container_name: luantiserver
     restart: unless-stopped

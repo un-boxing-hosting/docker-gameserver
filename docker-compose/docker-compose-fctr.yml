@@ -2,7 +2,7 @@
 services:
   # bind mount example
   linuxgsm-fctr-bind:
-   # image: gameservermanagers/gameserver:fctr
+    # image: gameservermanagers/gameserver:fctr
     image: ghcr.io/un-boxing-hosting/gameserver:fctr
     container_name: fctrserver
     restart: unless-stopped

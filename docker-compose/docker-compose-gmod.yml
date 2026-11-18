@@ -2,7 +2,7 @@
 services:
   # bind mount example
   linuxgsm-gmod-bind:
-   # image: gameservermanagers/gameserver:gmod
+    # image: gameservermanagers/gameserver:gmod
     image: ghcr.io/un-boxing-hosting/gameserver:gmod
     container_name: gmodserver
     restart: unless-stopped

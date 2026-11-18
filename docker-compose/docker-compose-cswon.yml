@@ -2,7 +2,7 @@
 services:
   # bind mount example
   linuxgsm-cswon-bind:
-   # image: gameservermanagers/gameserver:cswon
+    # image: gameservermanagers/gameserver:cswon
     image: ghcr.io/un-boxing-hosting/gameserver:cswon
     container_name: cswonserver
     restart: unless-stopped

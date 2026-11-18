@@ -2,7 +2,7 @@
 services:
   # bind mount example
   linuxgsm-wurm-bind:
-   # image: gameservermanagers/gameserver:wurm
+    # image: gameservermanagers/gameserver:wurm
     image: ghcr.io/un-boxing-hosting/gameserver:wurm
     container_name: wurmserver
     restart: unless-stopped

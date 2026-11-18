@@ -2,7 +2,7 @@
 services:
   # bind mount example
   linuxgsm-bfe-bind:
-   # image: gameservermanagers/gameserver:bfe
+    # image: gameservermanagers/gameserver:bfe
     image: ghcr.io/un-boxing-hosting/gameserver:bfe
     container_name: bfeserver
     restart: unless-stopped

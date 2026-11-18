@@ -2,7 +2,7 @@
 services:
   # bind mount example
   linuxgsm-av-bind:
-   # image: gameservermanagers/gameserver:av
+    # image: gameservermanagers/gameserver:av
     image: ghcr.io/un-boxing-hosting/gameserver:av
     container_name: avserver
     restart: unless-stopped

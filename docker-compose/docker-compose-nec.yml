@@ -2,7 +2,7 @@
 services:
   # bind mount example
   linuxgsm-nec-bind:
-   # image: gameservermanagers/gameserver:nec
+    # image: gameservermanagers/gameserver:nec
     image: ghcr.io/un-boxing-hosting/gameserver:nec
     container_name: necserver
     restart: unless-stopped

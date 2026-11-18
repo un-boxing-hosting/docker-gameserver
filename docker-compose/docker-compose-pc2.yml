@@ -2,7 +2,7 @@
 services:
   # bind mount example
   linuxgsm-pc2-bind:
-   # image: gameservermanagers/gameserver:pc2
+    # image: gameservermanagers/gameserver:pc2
     image: ghcr.io/un-boxing-hosting/gameserver:pc2
     container_name: pc2server
     restart: unless-stopped
