@@ -3,7 +3,7 @@ services:
   # bind mount example
   linuxgsm-dst-bind:
    # image: gameservermanagers/gameserver:dst
-     image: ghcr.io/un-boxing-hosting/gameserver:dst
+    image: ghcr.io/un-boxing-hosting/gameserver:dst
     container_name: dstserver
     restart: unless-stopped
     volumes:

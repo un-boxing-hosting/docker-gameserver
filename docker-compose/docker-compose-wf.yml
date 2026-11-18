@@ -3,7 +3,7 @@ services:
   # bind mount example
   linuxgsm-wf-bind:
    # image: gameservermanagers/gameserver:wf
-     image: ghcr.io/un-boxing-hosting/gameserver:wf
+    image: ghcr.io/un-boxing-hosting/gameserver:wf
     container_name: wfserver
     restart: unless-stopped
     volumes:

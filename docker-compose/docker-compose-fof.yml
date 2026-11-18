@@ -3,7 +3,7 @@ services:
   # bind mount example
   linuxgsm-fof-bind:
    # image: gameservermanagers/gameserver:fof
-     image: ghcr.io/un-boxing-hosting/gameserver:fof
+    image: ghcr.io/un-boxing-hosting/gameserver:fof
     container_name: fofserver
     restart: unless-stopped
     volumes:

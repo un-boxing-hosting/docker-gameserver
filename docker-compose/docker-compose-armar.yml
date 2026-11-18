@@ -3,7 +3,7 @@ services:
   # bind mount example
   linuxgsm-armar-bind:
    # image: gameservermanagers/gameserver:armar
-     image: ghcr.io/un-boxing-hosting/gameserver:armar
+    image: ghcr.io/un-boxing-hosting/gameserver:armar
     container_name: armarserver
     restart: unless-stopped
     volumes:

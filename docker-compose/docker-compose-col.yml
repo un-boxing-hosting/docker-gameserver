@@ -3,7 +3,7 @@ services:
   # bind mount example
   linuxgsm-col-bind:
    # image: gameservermanagers/gameserver:col
-     image: ghcr.io/un-boxing-hosting/gameserver:col
+    image: ghcr.io/un-boxing-hosting/gameserver:col
     container_name: colserver
     restart: unless-stopped
     volumes:

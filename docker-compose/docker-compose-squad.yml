@@ -3,7 +3,7 @@ services:
   # bind mount example
   linuxgsm-squad-bind:
    # image: gameservermanagers/gameserver:squad
-     image: ghcr.io/un-boxing-hosting/gameserver:squad
+    image: ghcr.io/un-boxing-hosting/gameserver:squad
     container_name: squadserver
     restart: unless-stopped
     volumes:

@@ -3,7 +3,7 @@ services:
   # bind mount example
   linuxgsm-unt-bind:
    # image: gameservermanagers/gameserver:unt
-     image: ghcr.io/un-boxing-hosting/gameserver:unt
+    image: ghcr.io/un-boxing-hosting/gameserver:unt
     container_name: untserver
     restart: unless-stopped
     volumes:

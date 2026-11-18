@@ -3,7 +3,7 @@ services:
   # bind mount example
   linuxgsm-pmc-bind:
    # image: gameservermanagers/gameserver:pmc
-     image: ghcr.io/un-boxing-hosting/gameserver:pmc
+    image: ghcr.io/un-boxing-hosting/gameserver:pmc
     container_name: pmcserver
     restart: unless-stopped
     volumes:

@@ -3,7 +3,7 @@ services:
   # bind mount example
   linuxgsm-ios-bind:
    # image: gameservermanagers/gameserver:ios
-     image: ghcr.io/un-boxing-hosting/gameserver:ios
+    image: ghcr.io/un-boxing-hosting/gameserver:ios
     container_name: iosserver
     restart: unless-stopped
     volumes:

@@ -3,7 +3,7 @@ services:
   # bind mount example
   linuxgsm-rust-bind:
    # image: gameservermanagers/gameserver:rust
-     image: ghcr.io/un-boxing-hosting/gameserver:rust
+    image: ghcr.io/un-boxing-hosting/gameserver:rust
     container_name: rustserver
     restart: unless-stopped
     volumes:

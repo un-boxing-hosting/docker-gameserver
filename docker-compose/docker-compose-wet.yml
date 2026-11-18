@@ -3,7 +3,7 @@ services:
   # bind mount example
   linuxgsm-wet-bind:
    # image: gameservermanagers/gameserver:wet
-     image: ghcr.io/un-boxing-hosting/gameserver:wet
+    image: ghcr.io/un-boxing-hosting/gameserver:wet
     container_name: wetserver
     restart: unless-stopped
     volumes:

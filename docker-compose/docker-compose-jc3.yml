@@ -3,7 +3,7 @@ services:
   # bind mount example
   linuxgsm-jc3-bind:
    # image: gameservermanagers/gameserver:jc3
-     image: ghcr.io/un-boxing-hosting/gameserver:jc3
+    image: ghcr.io/un-boxing-hosting/gameserver:jc3
     container_name: jc3server
     restart: unless-stopped
     volumes:

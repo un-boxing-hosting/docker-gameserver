@@ -3,7 +3,7 @@ services:
   # bind mount example
   linuxgsm-ets2-bind:
    # image: gameservermanagers/gameserver:ets2
-     image: ghcr.io/un-boxing-hosting/gameserver:ets2
+    image: ghcr.io/un-boxing-hosting/gameserver:ets2
     container_name: ets2server
     restart: unless-stopped
     volumes:

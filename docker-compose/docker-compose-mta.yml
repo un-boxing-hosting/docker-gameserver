@@ -3,7 +3,7 @@ services:
   # bind mount example
   linuxgsm-mta-bind:
    # image: gameservermanagers/gameserver:mta
-     image: ghcr.io/un-boxing-hosting/gameserver:mta
+    image: ghcr.io/un-boxing-hosting/gameserver:mta
     container_name: mtaserver
     restart: unless-stopped
     volumes:

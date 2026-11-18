@@ -3,7 +3,7 @@ services:
   # bind mount example
   linuxgsm-tf2-bind:
    # image: gameservermanagers/gameserver:tf2
-     image: ghcr.io/un-boxing-hosting/gameserver:tf2
+    image: ghcr.io/un-boxing-hosting/gameserver:tf2
     container_name: tf2server
     restart: unless-stopped
     volumes:

@@ -3,7 +3,7 @@ services:
   # bind mount example
   linuxgsm-xnt-bind:
    # image: gameservermanagers/gameserver:xnt
-     image: ghcr.io/un-boxing-hosting/gameserver:xnt
+    image: ghcr.io/un-boxing-hosting/gameserver:xnt
     container_name: xntserver
     restart: unless-stopped
     volumes:

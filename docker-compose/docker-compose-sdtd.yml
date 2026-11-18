@@ -3,7 +3,7 @@ services:
   # bind mount example
   linuxgsm-sdtd-bind:
    # image: gameservermanagers/gameserver:sdtd
-     image: ghcr.io/un-boxing-hosting/gameserver:sdtd
+    image: ghcr.io/un-boxing-hosting/gameserver:sdtd
     container_name: sdtdserver
     restart: unless-stopped
     volumes:

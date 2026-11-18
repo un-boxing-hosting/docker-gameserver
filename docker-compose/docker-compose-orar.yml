@@ -3,7 +3,7 @@ services:
   # bind mount example
   linuxgsm-orar-bind:
    # image: gameservermanagers/gameserver:orar
-     image: ghcr.io/un-boxing-hosting/gameserver:orar
+    image: ghcr.io/un-boxing-hosting/gameserver:orar
     container_name: orarserver
     restart: unless-stopped
     volumes:

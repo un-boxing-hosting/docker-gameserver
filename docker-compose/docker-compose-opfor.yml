@@ -3,7 +3,7 @@ services:
   # bind mount example
   linuxgsm-opfor-bind:
    # image: gameservermanagers/gameserver:opfor
-     image: ghcr.io/un-boxing-hosting/gameserver:opfor
+    image: ghcr.io/un-boxing-hosting/gameserver:opfor
     container_name: opforserver
     restart: unless-stopped
     volumes:

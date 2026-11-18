@@ -3,7 +3,7 @@ services:
   # bind mount example
   linuxgsm-ro-bind:
    # image: gameservermanagers/gameserver:ro
-     image: ghcr.io/un-boxing-hosting/gameserver:ro
+    image: ghcr.io/un-boxing-hosting/gameserver:ro
     container_name: roserver
     restart: unless-stopped
     volumes:

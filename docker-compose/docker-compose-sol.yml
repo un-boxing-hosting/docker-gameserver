@@ -3,7 +3,7 @@ services:
   # bind mount example
   linuxgsm-sol-bind:
    # image: gameservermanagers/gameserver:sol
-     image: ghcr.io/un-boxing-hosting/gameserver:sol
+    image: ghcr.io/un-boxing-hosting/gameserver:sol
     container_name: solserver
     restart: unless-stopped
     volumes:

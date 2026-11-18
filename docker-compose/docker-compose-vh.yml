@@ -3,7 +3,7 @@ services:
   # bind mount example
   linuxgsm-vh-bind:
    # image: gameservermanagers/gameserver:vh
-     image: ghcr.io/un-boxing-hosting/gameserver:vh
+    image: ghcr.io/un-boxing-hosting/gameserver:vh
     container_name: vhserver
     restart: unless-stopped
     volumes:

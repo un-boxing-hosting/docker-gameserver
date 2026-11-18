@@ -3,7 +3,7 @@ services:
   # bind mount example
   linuxgsm-wmc-bind:
    # image: gameservermanagers/gameserver:wmc
-     image: ghcr.io/un-boxing-hosting/gameserver:wmc
+    image: ghcr.io/un-boxing-hosting/gameserver:wmc
     container_name: wmcserver
     restart: unless-stopped
     volumes:

@@ -3,7 +3,7 @@ services:
   # bind mount example
   linuxgsm-hz-bind:
    # image: gameservermanagers/gameserver:hz
-     image: ghcr.io/un-boxing-hosting/gameserver:hz
+    image: ghcr.io/un-boxing-hosting/gameserver:hz
     container_name: hzserver
     restart: unless-stopped
     volumes:

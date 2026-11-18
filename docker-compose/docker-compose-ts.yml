@@ -3,7 +3,7 @@ services:
   # bind mount example
   linuxgsm-ts-bind:
    # image: gameservermanagers/gameserver:ts
-     image: ghcr.io/un-boxing-hosting/gameserver:ts
+    image: ghcr.io/un-boxing-hosting/gameserver:ts
     container_name: tsserver
     restart: unless-stopped
     volumes:

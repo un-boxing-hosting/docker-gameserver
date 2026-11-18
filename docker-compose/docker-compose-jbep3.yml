@@ -3,7 +3,7 @@ services:
   # bind mount example
   linuxgsm-jbep3-bind:
    # image: gameservermanagers/gameserver:jbep3
-     image: ghcr.io/un-boxing-hosting/gameserver:jbep3
+    image: ghcr.io/un-boxing-hosting/gameserver:jbep3
     container_name: jbep3server
     restart: unless-stopped
     volumes:

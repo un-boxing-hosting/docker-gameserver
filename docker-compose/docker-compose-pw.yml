@@ -3,7 +3,7 @@ services:
   # bind mount example
   linuxgsm-pw-bind:
    # image: gameservermanagers/gameserver:pw
-     image: ghcr.io/un-boxing-hosting/gameserver:pw
+    image: ghcr.io/un-boxing-hosting/gameserver:pw
     container_name: pwserver
     restart: unless-stopped
     volumes:
